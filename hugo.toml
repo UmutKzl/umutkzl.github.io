@@ -16,7 +16,7 @@ theme = "PaperMod"
     enabled = true
     title = "Hi, I'm UmutKzl 👋"
     subtitle = "I write about code and whatever else interests me."
-    imageUrl = "/images/avatar.jpg"
+    #imageUrl = "/images/avatar.jpg"
     imageAltText = "UmutKzl"
 
     [[params.profileMode.buttons]]
