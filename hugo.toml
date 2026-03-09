@@ -1,0 +1,42 @@
+baseURL = 'https://umutkzl.github.io'
+languageCode = 'en-us'
+title = 'UmutKzl'
+theme = "PaperMod"
+
+[params]
+  author = "UmutKzl"
+  description = "Developer, Turk, human."
+  defaultTheme = "auto"         # light | dark | auto
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  [params.profileMode]
+    enabled = true
+    title = "Hi, I'm UmutKzl 👋"
+    subtitle = "I write about code and whatever else interests me."
+    imageUrl = "/images/avatar.jpg"
+    imageAltText = "UmutKzl"
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url  = "/posts"
+
+  [params.homeInfoParams]
+    enabled = false   # disabled — using profileMode instead
+
+[[menus.main]]
+  name       = "Posts"
+  url        = "/posts"
+  weight     = 10
+
+[[menus.main]]
+  name       = "About"
+  url        = "/about"
+  weight     = 20
+
+[[menus.main]]
+  name       = "Contact"
+  url        = "/contact"
+  weight     = 30
